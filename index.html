@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Můj addon</title>
+  <style>
+    body {
+      font-family: monospace;
+      background: #f5f5f5;
+      padding: 2rem;
+    }
+    .container {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      max-width: 900px;
+      margin: auto;
+      overflow-x: auto;
+    }
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Obsah addon.xml</h1>
+    <pre id="xmlContent">Načítám obsah...</pre>
+  </div>
+
+  <script>
+    fetch("addon.xml")
+      .then(response => response.text())
+      .then(text => {
+        document.getElementById("xmlContent").textContent = text;
+      })
+      .catch(err => {
+        document.getElementById("xmlContent").textContent = "Chyba při načítání souboru: " + err;
+      });
+  </script>
+</body>
+</html>
