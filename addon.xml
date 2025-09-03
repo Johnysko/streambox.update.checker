@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.streambox" name="StreamBox" version="0.2.3" provider-name="cache.sk a Johnysko">
+<addon id="plugin.video.streambox" name="StreamBox" version="0.2.4" provider-name="cache.sk a Johnysko">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.18.4"/>
@@ -24,9 +24,17 @@
             <icon>resources/icon.png</icon>            
         </assets>
         <news>
+[B]0.2.4[/B]
+- Přidána nová sekce Koncerty(složky podle abecedy)
+- Řazení dle rozlišení 4K-1080p-720p je defaultně vypnuto, koliduje s řazením dle velikosti. Lze zapnout v nastavení
+- Doplněk nasazen na automaticky aktualizovaný repozitář, který jde přidat jako online zdroj do Kodi
+- Při aktualizaci nově ukazuje změny v nové verzi
 [B]0.2.3[/B]
-- Přidání sekce Sport, kde lze sledovat záznamy Formulí F1-3 a MotoGP (by Smejky11)
+- Přidána sekce Sport, kde lze sledovat záznamy Formulí F1-3 a MotoGP (by Smejky11)
 - Přidána možnost u jednotlivých dílů seriálů označit/odznačit jako Zhlédnuto(kontextové menu pro epizodu)
+- V celé sekci Filmy lze nyní hledat filmy podle anglického názvu(kontextové menu pro film)
+- Automaticky kontroluje jednou za 24h dostupnost nové verze StreamBoxu, případně manuální kontrola přes hlavní menu
+- Sekce Vyhledávání na WS bez filtrů je opět kompletně funkční(RAW hledání, největší a nejnovější na WS)
 [B]0.2.2[/B]
 - Zobrazování délky jednotlivých streamů, v názvu i v informačním řádku (Defaultně vypnuto - zapnout v nastavení)
 - V hlavním menu je nově zobrazován počet zbývajících dní VIP na WS
