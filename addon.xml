@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.streambox" name="StreamBox" version="0.2.5" provider-name="cache.sk a Johnysko">
+<addon id="plugin.video.streambox" name="StreamBox" version="0.2.6" provider-name="cache.sk a Johnysko">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.18.4"/>
@@ -24,6 +24,10 @@
             <icon>resources/icon.png</icon>            
         </assets>
         <news>
+[B]0.2.6[/B]
+- Automaticky označuje seriálové epizody jako zhlédnuté, pokud uživatel přehraje 88% epizody
+[B]0.2.5[/B]
+- Opraveny chyby synchronizace
 [B]0.2.4[/B]
 - Přidána nová sekce Koncerty(složky podle abecedy)
 - Řazení dle rozlišení 4K-1080p-720p je defaultně vypnuto, koliduje s řazením dle velikosti. Lze zapnout v nastavení
