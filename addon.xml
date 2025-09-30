@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.streambox" name="StreamBox" version="0.2.8" provider-name="cache.sk a Johnysko">
+<addon id="plugin.video.streambox" name="StreamBox" version="0.2.9" provider-name="cache.sk a Johnysko">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.18.4"/>
@@ -24,10 +24,14 @@
             <icon>resources/icon.png</icon>            
         </assets>
         <news>
+[B]0.2.9[/B]
+- Přidány nové tématické seznamy v sekci Filmy/Tématické seznamy
+- Refaktorizace kódu filmových a seriálových seznamů
+- FIX: Koncerty nyní správně zobrazují položky se znaky s diakritikou a nevynechávají je v seznamu(Škwor atd.)
+- Nový server kde lze diskutovat bez cenzury a nové informace o StreamBoxu: https://discord.gg/JvgCUvg2HP
 [B]0.2.8[/B]
 - Pokud nenajde u streamu český dabing [CZ] - hledá české titulky a zobrazuje je v tagu [CZ tit]
 - Tag u streamů 1080p(Full HD) změněn na [FHD] + lépe viditelná světlejší barva
-- Nový server kde lze diskutovat bez cenzury a nové informace o StreamBoxu: https://discord.gg/HvVgKKsB
 [B]0.2.7[/B]
 - Zobrazuje délku filmů a epizod v seznamech TMDB (lze vypnout v nastavení-mírně zpomaluje načítání)
 - V kontextovém menu epizod lze nyní hledat podle anglického názvu seriálu (ANGLICKÝ NÁZEV SxxExx)
